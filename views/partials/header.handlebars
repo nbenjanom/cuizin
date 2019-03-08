@@ -1,0 +1,39 @@
+<header>
+<div class="noir">
+    <div class="navi">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="/">Cui'zine</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto oswald">
+                    <li class="nav-item {{#if isActiveHome}}active{{/if}}">
+                        <a class="nav-link" href="/">Accueil <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/post">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/team">Equipe</a>
+                    </li>
+                    <li class="nav-item {{#if isActiveContact}}active{{/if}}">
+                        <a class="nav-link" href="/contact">Contact</a>
+                    </li> 
+                    </ul>
+                </div>
+            </nav>
+
+        <div class="bloctitre">
+            <img src="/img/logo_square_white.png" alt="logo">
+            <h1>{{subtitle}}</h1>
+            {{#if subtitle2}}
+            <h2>{{subtitle2}}</h2>
+            {{/if}}
+        </div>
+    </div>
+</div>
+</header>

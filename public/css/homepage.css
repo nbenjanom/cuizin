@@ -1,0 +1,33 @@
+    /* HEADER CONTENT */
+    /* ********* */
+
+header{
+    background-image:url("../img/header.jpg");
+}
+
+    /* ******* */
+    /* ../..HEADER CONTENT.. */
+
+    /* CONTENU */
+    /* ********* */
+
+.contenu{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.contenu h3:first-child{
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.contenu .container{
+    max-width: 1260px;
+}
+
+.contenu p{
+    margin-bottom:30px;
+}
+
+    /* ******* */
+    /* ../..CONTENU.. */

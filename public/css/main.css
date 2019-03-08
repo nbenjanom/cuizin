@@ -1,0 +1,154 @@
+/* FONTS */
+/* ******** */
+
+.oswald{
+    font-family: 'Oswald';
+}
+
+.courgette{
+    font-family:'Courgette';
+}
+
+li:last-child, .oswaldmini{
+    font-family:'Oswald' '300';
+}
+
+   /* ******* */
+/* ../ FONTS /.. */
+
+
+/* HEADER */
+/* ********* */
+
+header{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:440px;
+    font-family: 'Courgette';
+    margin-bottom:20px;
+}
+
+.noir, .header{
+    height:440px;
+}
+.noir, .filtretitre{
+    background-color:rgba(0, 0, 0, 0.6);
+    margin-bottom: 5px;
+}
+
+.navbar{
+    background-color:rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.26);
+    padding-bottom:7px;
+}
+
+.navbar-brand{
+    font-size:30px;
+}
+
+.bloctitre{
+    text-align:center;
+    color: white;
+    margin-top: 40px;
+}
+
+.bloctitre img{
+    width: 75px;
+    height:auto;
+}
+
+        /* ******* */
+    /* ../..HEADER CONTENT.. */
+
+    /* CONTENU */
+    /* ********* */
+img{
+    width:100%;
+    height: auto;
+    margin-bottom:10px;
+    text-align:center;
+}
+
+li{
+    list-style-type:none;
+}
+
+ul{
+    padding:0;
+}
+
+.recherche{
+    padding-top:55px;
+}
+    /* ******* */
+    /* ../..CONTENU.. */
+
+
+    /* PHOTOS PROFILS */
+    /* ******** */
+
+.teampics{
+    padding:0 80px;
+    margin-top:20px;
+}
+
+.profilepic{
+    border-radius:50%;
+}
+
+
+.avatar{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.profilelink, .profilelink:hover{
+    color:black;
+    text-decoration:none;
+}
+
+    /* ******* */
+    /* ../..PHOTOS PROFILS.. */
+
+    /* ***** */
+    /* FOOTER */
+
+.footer{
+    background-color:black;
+    color:white;
+    margin:0 0 0 0;
+    padding-top:50px;
+    padding-bottom:25px;
+}
+
+.links, .links a{
+    text-decoration-line:underline;
+    color:white;
+}
+
+.form-row{
+    margin-bottom:15px;
+}
+
+.form-row .col-12{
+    padding-left:1px; /*PUTAIN POURQUOI J'AI DU FAIRE çA,?! */
+}
+
+.footer .btn-outline-dark{
+    color:white;
+    border-color:white;    
+}
+
+.fab{
+    color:black;
+    background-color:white;
+    padding:10px;
+}
+
+.sharing ul li{
+    display:inline;
+}
+
+    /* ..//..FOOTER */
+    /* *********** */
